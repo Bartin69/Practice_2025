@@ -1,0 +1,6 @@
+[OK] SSH root login disabled
+[OK] SSH password authentication disabled
+[OK] UFW enabled and configured
+[OK] Fail2Ban active and running
+[OK] Unnecessary services disabled
+[OK] Automatic updates enabled
