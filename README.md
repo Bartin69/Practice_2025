@@ -22,17 +22,16 @@
 # 📄 Состав репозитория
     
     ├── README.md               — описание проекта
-    ├── hardening_guide.md      — пошаговое руководство по настройке
-    ├── scripts/                — скрипты автоматизации настройки
-    │   ├── disable_services.sh
-    │   ├── setup_firewall.sh
-    │   ├── setup_fail2ban.sh
-    │   └── create_users.sh
-    ├── examples/               — примеры конфигурационных файлов
-    │   ├── ufw.rules
+    ├── setup.sh                — скрипт автоматизации настройки
+    ├── configs/               — примеры конфигурационных файлов
+    │   ├── ufw.rules.conf
     │   ├── sshd_config
-    │   └── jail.local (для Fail2Ban)
-    └── docs/                   — отчёт и исследовательская работа (PDF/DOCX)
+    │   └── fail2ban_jail.local
+    ├── logs/                   — отчёт и исследовательская работа (PDF/DOCX)
+    │   ├── auth.log.snippet
+    │   ├── hardening_report.log
+    │   ├── nmap_scan_after.txt
+    └── └── nmap_scan_before.txt
 
 # 🚀 Быстрый старт
 
