@@ -27,7 +27,7 @@
     │   ├── ufw.rules.conf
     │   ├── sshd_config
     │   └── fail2ban_jail.local
-    ├── logs/                   — отчёт и исследовательская работа (PDF/DOCX)
+    ├── logs/                   — логи
     │   ├── auth.log.snippet
     │   ├── hardening_report.log
     │   ├── nmap_scan_after.txt
